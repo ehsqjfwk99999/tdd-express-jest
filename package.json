@@ -1,0 +1,18 @@
+{
+  "name": "inflearn-tdd",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "node-mocks-http": "^1.11.0",
+    "supertest": "^6.2.3"
+  }
+}
